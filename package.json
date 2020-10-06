@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-source-apiserver",
+  "name": "@grebban/gatsby-source-apiserver",
   "version": "2.1.7",
   "description": "Gatsby plugin to handle any third party api data intake.",
   "main": "index.js",
@@ -14,11 +14,11 @@
     "gatsby-plugin",
     "gatsby-source-plugin"
   ],
-  "author": "Thinh Le <thinh.le@asnet.com.vn>",
+  "author": "Grebban Design AB <hello@grebban.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thinhle-agilityio/gatsby-source-apiserver.git"
+    "url": "https://github.com/grebban/gatsby-source-apiserver.git"
   },
   "devDependencies": {
     "babel-preset-es2015": "^6.24.1",

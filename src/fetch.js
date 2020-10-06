@@ -96,6 +96,11 @@ async function fetch({
   }
 
   if (routeData) {
+    routeData = routeData[0]
+      ? routeData.map((data) => {
+          return { ...data, acf_data: stringify(data.acf_data, null, 2) };
+        })
+      : routeData;
     // console.log(`allRoutes: `, allRoutes.data);
 
     // Create a local save of the json data in the user selected path
